@@ -1,4 +1,4 @@
-FROM docker.io/library/fedora
+FROM registry.fedoraproject.org/fedora
 LABEL maintainer="Daleep Singh Bais" \
       description="This is a standard httpd image modified to suit deployment on OCP"
 ENV DOCROOT=/var/www/html \
